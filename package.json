@@ -1,0 +1,27 @@
+{
+  "name": "puhelinluettelo-backend",
+  "version": "1.0.0",
+  "description": "This is the backend for the 'phonebook' ([puhelinluettelo](https://github.com/Laremies/Full-Stack-2022-exercises/tree/main/part2/puhelinluettelo)) exercise in [Full Stack open 2022](https://github.com/Laremies/Full-Stack-2022-exercises).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laremies/puhelinluettelo-backend.git"
+  },
+  "author": "Laurens van der Helm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Laremies/puhelinluettelo-backend/issues"
+  },
+  "homepage": "https://github.com/Laremies/puhelinluettelo-backend#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
