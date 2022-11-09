@@ -9,7 +9,6 @@ morgan.token('body', req => {
         return JSON.stringify(req.body)
     } else return ' '
 })
-
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms :body'))
 
 let persons = [
